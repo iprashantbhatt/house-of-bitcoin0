@@ -1,5 +1,5 @@
-import HalvingTimer from "@/components/HalvingTimer";
-import FeeCards from "@/components/FeeCards";
+import HalvingTimer from "../components/HalvingTimer";
+import FeeCards from "../components/FeeCards";
 
 export default function Home() {
   return (
@@ -14,3 +14,4 @@ export default function Home() {
     </main>
   );
 }
+
