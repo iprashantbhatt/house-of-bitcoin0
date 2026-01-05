@@ -28,10 +28,12 @@ export default function FeeCards() {
         {Object.entries(fees).map(([k, v]) => (
           <div key={k} className="bg-zinc-900 p-4 rounded-xl">
             <p className="text-gray-400">{k}</p>
-            <p className="text-2xl font-bold">{v}</p>
+            <p className="text-2xl font-bold">{String(v)}</p>
+
           </div>
         ))}
       </div>
     </div>
   );
 }
+
